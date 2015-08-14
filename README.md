@@ -1,5 +1,5 @@
-# IAHealthcare
-The Healthcare Awareness System (PROTOTYPE) was developed as part of my Master Thesis on the IT University of Copenhagen
+# InterruptAware System
+The InterruptAware System (PROTOTYPE) was developed as part of my Master Thesis on the IT University of Copenhagen
 
 The system consists of three applications:
 
