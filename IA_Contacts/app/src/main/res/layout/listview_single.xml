@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="10dp"
+    android:background="#FFF">
+
+    <!--  ListRow Left side Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/profilePicture"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:background="#fff"
+            android:src="@drawable/p1"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:paddingTop="5dip"
+        android:text="Therese Agerschou Heide"
+        android:textColor="#000"
+        android:typeface="sans"
+        android:textSize="15dip"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:text="Medical Doctor, Anestecilogy, Y13"
+        android:maxLines="1"
+android:maxLength="31"        android:textColor="#787878"
+        android:textSize="13dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0 MINUTES AGO:"
+        android:paddingTop="6dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:textColor="#63a9e0"
+        android:textSize="12dip" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treating Patient in Room 3, ER"
+        android:textColor="#232323"
+        android:textSize="14dip"
+        android:maxLines="1"
+        android:maxLength="29"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+
+    <ImageView
+        android:id="@+id/interruptStatusIcon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/you_yellow"/>
+
+
+
+</RelativeLayout>

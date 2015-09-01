@@ -1,0 +1,18 @@
+@relation hospital
+
+@attribute ACTIVITY {R,D,T,W}
+@attribute XAVG numeric
+@attribute YAVG numeric
+@attribute ZAVG numeric
+@attribute XPEAK numeric
+@attribute YPEAK numeric
+@attribute ZPEAK numeric
+@attribute XABSOLDEV numeric
+@attribute YABSOLDEV numeric
+@attribute ZABSOLDEV numeric
+@attribute XSTANDDEV numeric
+@attribute YSTANDDEV numeric
+@attribute ZSTANDDEV numeric
+@attribute RESULTANT numeric
+
+@data

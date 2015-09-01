@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary</item>
+        <item name="android:colorAccent">@color/gray</item>
+        <item name="android:textColorPrimary">@color/gray</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:colorEdgeEffect">@color/primary</item>
+        <item name="android:actionMenuTextColor">@color/gray</item>
+
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:colorButtonNormal">@color/primary</item>
+        <item name="android:itemTextAppearance">@color/gray</item>
+    </style>
+
+
+</resources>
